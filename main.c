@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int
-main (void)
+main (int argc, char** argv)
 {
     fprintf (stdout, "Hello, world!\n");
 
