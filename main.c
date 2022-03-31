@@ -9,5 +9,5 @@ main (int argc, char** argv)
 
     fprintf (stdout, "Hello, world!\n");
 
-    return 0;
+    return EXIT_SUCCESS;
 }
