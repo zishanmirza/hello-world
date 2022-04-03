@@ -7,7 +7,7 @@ main (int argc, char** argv)
     if (argc != 1)
         exit (1);
 
-    fprintf (stdout, "Hello, world!\n");
+    fprintf (stdout, "%s Hello, world!\n", argv[0]);
 
     return EXIT_SUCCESS;
 }
