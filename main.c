@@ -10,6 +10,7 @@ main (int argc, char** argv)
     char* name;
 
     name = argv[0];
+
     fprintf (stdout, "%s Hello, world!\n", name);
 
     return EXIT_SUCCESS;
