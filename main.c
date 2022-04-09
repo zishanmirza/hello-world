@@ -13,5 +13,5 @@ main (int argc, char** argv)
 
     fprintf (stdout, "%s Hello, world!\n", name);
 
-    return EXIT_SUCCESS;
+    return 0;
 }
