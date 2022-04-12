@@ -11,7 +11,7 @@ main (int argc, char** argv)
 
     name = argv[0];
 
-    printf ("%s Hello, world!\n", name);
+    printf ("%s: Hello, world!\n", name);
 
     return 0;
 }
