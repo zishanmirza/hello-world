@@ -11,7 +11,12 @@ main (int argc, char** argv)
     if (argc != 1)
         return 0;
 
-    start(argv[0]);
+    char* text;
+
+	text = start(argv[0]);
+	printf ("%s\n", text);
+
+	free (text);
 
     return 0;
 }

@@ -2,6 +2,6 @@
 
 #define START_H 1
 
-void start(char* name);
+char* start(char* name);
 
 #endif
