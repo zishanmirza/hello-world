@@ -1,7 +1,7 @@
 #ifndef START_H
 #define START_H 1
 
-#define BUFFER 128
+#define BUFFER 64
 
 char* start(char* name);
 
