@@ -3,6 +3,6 @@
 
 #define BUFFER 32
 
-char* start(char* name);
+char* start (char* name);
 
 #endif
