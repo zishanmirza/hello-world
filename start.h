@@ -1,5 +1,5 @@
-#ifndef START_H
-#define START_H 1
+#ifndef _START_H
+#define _START_H 1
 
 #define BUFFER 32
 
