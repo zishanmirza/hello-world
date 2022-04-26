@@ -6,10 +6,10 @@
 char*
 start (char* name)
 {
-    char* text;
+  char* text;
 
-    text = malloc (sizeof (char) * BUFFER);
-    snprintf (text, BUFFER, "%s: Hello, world!", name);
+  text = malloc (sizeof (char) * BUFFER);
+  snprintf (text, BUFFER, "%s: Hello, world!", name);
 
-    return text;
+  return text;
 }
