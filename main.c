@@ -8,15 +8,15 @@
 int
 main (int argc, char** argv)
 {
-    if (argc != 1)
-        return 0;
+  if (argc != 1)
+    return 0;
 
-    char* text;
+  char* text;
 
-    text = start(argv[0]);
-    printf ("%s\n", text);
+  text = start(argv[0]);
+  printf ("%s\n", text);
 
-    free (text);
+  free (text);
 
-    return EXIT_SUCCESS;
+  return EXIT_SUCCESS;
 }
