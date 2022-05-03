@@ -14,7 +14,7 @@ main (int argc, char** argv)
   char* text;
 
   text = start (argv[0]);
-  fprintf ("%s\n", text);
+  fprintf (stdout, "%s\n", text);
 
   free (text);
 
