@@ -15,7 +15,6 @@ main (int argc, char** argv)
 
   text = start (argv[0]);
   fprintf (stdout, "%s\n", text);
-
   free (text);
 
   return 0;
