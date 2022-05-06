@@ -12,7 +12,6 @@ main (int argc, char** argv)
     return 0;
 
   char* text;
-
   text = start (argv[0]);
   fprintf (stdout, "%s\n", text);
   free (text);
