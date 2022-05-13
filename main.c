@@ -11,7 +11,6 @@ main (int argc, char** argv)
   if (argc != 1)
     return 0;
 
-  fprintf (stdout, "Hello, world!\n");
   char* text;
   text = start (argv[0]);
   fprintf (stdout, "%s\n", text);
