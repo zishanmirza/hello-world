@@ -13,7 +13,7 @@ main (int argc, char** argv)
 
   char* text;
   text = start (argv[0]);
-  fprintf (stdout, "%s\n", text);
+  printf (stdout, "%s\n", text);
   free (text);
 
   return 0;
