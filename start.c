@@ -8,7 +8,7 @@ start (char* name)
 {
   char* text;
   text = malloc (sizeof (char) * BUFFER);
-  snprintf (text, BUFFER, "%s: Hello, world!", name);
+  snprintf (text, BUFFER, "%s", name);
 
   return text;
 }
