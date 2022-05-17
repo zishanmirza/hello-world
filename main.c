@@ -13,8 +13,10 @@ main (int argc, char** argv)
 
   char* text;
   text = start (argv[0]);
-  printf ("%s\n", text);
+  printf ("%s", text);
   free (text);
+
+  printf ("\n");
 
   return 0;
 }
