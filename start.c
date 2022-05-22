@@ -4,11 +4,10 @@
 #include "start.h"
 
 char*
-start (char* name)
+start (char* text)
 {
-  char* text;
-  text = malloc (sizeof (char) * BUFFER);
-  snprintf (text, BUFFER, "%s", name);
-
-  return text;
+  char* buffer;
+  buffer = malloc (sizeof (char) * 32);
+  snprintf (buffer, sizeof (char) * 32, "%s", text);
+  return buffer;
 }
