@@ -5,11 +5,15 @@
 
 #include "main.h"
 
+extern void hello_world(char*);
+
 int
 main (int argc, char** argv)
 {
   if (argc != 1)
     return 0;
+
+  hello_world("test");
 
   int return_value;
   char* text;
