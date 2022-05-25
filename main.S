@@ -1,15 +1,12 @@
-global hello_world
+global _start
+
+extern hello_world
 
 section .text
 
-hello_world:
-	mov rdi,0x1
-	mov rsi,message
-	mov rdx,message_length
-	mov rax,0x1
-	syscall
-	ret
+_start:
+	call hello_world
 
-section .data
-	message db "Hello, World!", 0xa
-	message_length equ $-message
+	mov eax,0
+	mov ebx,0
+	int 0x80
