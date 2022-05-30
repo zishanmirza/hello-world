@@ -9,7 +9,7 @@ start (char* text)
   char* buffer;
 
   buffer = malloc (sizeof (char) * 32);
-  snprintf (buffer, sizeof (char) * 32, "%s", text);
+  snprintf (buffer, sizeof (char) * 32, "Hello, World! %s", text);
 
   return buffer;
 }
