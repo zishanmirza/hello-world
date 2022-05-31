@@ -13,7 +13,7 @@ main (int argc, char** argv)
   if (argc != 1)
     return 0;
 
-  hello_world("test");
+  hello_world("Hello, world!\n");
 
   int return_value;
   char* text;
