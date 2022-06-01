@@ -1,8 +1,8 @@
-global _start
-
 extern hello_world
 
 section .text
+
+global _start
 
 _start:
 	call hello_world
