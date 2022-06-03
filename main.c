@@ -21,7 +21,6 @@ main (int argc, char** argv)
   text = start (argv[0]);
   printf ("%s", text);
   free (text);
-
   printf ("\n");
 
   __asm__(".intel_syntax;"
