@@ -5,7 +5,7 @@ all:
 	ld -o start start.o
 
 	cc -Wall -Werror -Wextra -o main start.o main.c start.c
-	@rm main.o start.o
+	rm main.o start.o
 
 clean:
 	rm -f main start
