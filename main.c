@@ -16,7 +16,7 @@ main (int argc, char** argv)
   int return_value;
   char* text;
 
-  hello_world("Hello, world!\n");
+  hello_world("Hello, World!");
 
   text = start (argv[0]);
   printf ("%s", text);
