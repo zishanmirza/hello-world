@@ -19,9 +19,8 @@ main (int argc, char** argv)
   hello_world("Hello, World!");
 
   text = start (argv[0]);
-  printf ("%s", text);
+  printf ("%s\n", text);
   free (text);
-  printf ("\n");
 
   __asm__(".intel_syntax;"
           "mov %0,0x1;"
